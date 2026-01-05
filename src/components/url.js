@@ -1,4 +1,4 @@
-const BASE_URL = "https://driptally.infinityfreeapp.com/api/";
+const BASE_URL = "www.driptally.infinityfreeapp.com/api/";
 // const BASE_URL = "http://localhost/ReactJs/driptally/api/";
 
 export const url = {
