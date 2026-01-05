@@ -1,0 +1,38 @@
+/* ===== DASHBOARD CARD BASE ===== */
+.dashboard-card {
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+/* ===== GREEN – SEND CAMPAIGN ===== */
+.gradient-green {
+  background: linear-gradient(135deg, #16a085, #2ecc71);
+  color: #fff;
+}
+
+/* ===== BLUE – CREATE CAMPAIGN ===== */
+.gradient-blue {
+  background: linear-gradient(135deg, #2980b9, #6dd5fa);
+  color: #fff;
+}
+
+/* ===== ORANGE – SEND HISTORY ===== */
+.gradient-orange {
+  background: linear-gradient(135deg, #f7971e, #ffd200);
+  color: #fff;
+}
+
+/* ICON STYLE */
+.stat-icon {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  font-size: 30px;
+  opacity: 0.9;
+}
